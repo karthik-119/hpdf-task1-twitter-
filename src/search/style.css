@@ -1,0 +1,16 @@
+.style{
+font-family: calibri;
+font-size: medium;
+text-decoration: none;
+}
+a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+

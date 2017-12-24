@@ -1,0 +1,32 @@
+.container{
+  display: flex;
+}
+.center {
+    text-align: center;
+}
+.centerelement {
+    vertical-align: middle;
+    padding: 10px;
+    position: absolute;
+}
+.right {
+    float: right;
+    width: 300px;
+    padding: 10px;
+}
+.left {
+    float: left;
+    width: 300px;
+    padding: 10px;
+}
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+
+}
