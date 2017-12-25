@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Media from 'react-media'
 import logo from './logo.svg';
 import Nav from './search/Nav';
 import './App.css';
@@ -19,6 +20,9 @@ class Search extends Component {
   render() {
     return (
       <div class="pos">
+  <Media query="(max-width: 1400px)" render={() => (
+               <marquee> This app is best viewed in 1920 * 1280 resolution</marquee>)}>
+</Media>
         <Nav/>
          <Nav1/>
        <Grid container justify="center" spacing={24} style={{backgroundColor:"#e6ecf0",marginTop:2,maxWidth:"1531px",height:"1400px"}}>
