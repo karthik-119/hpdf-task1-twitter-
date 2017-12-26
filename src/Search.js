@@ -19,7 +19,7 @@ import Nav1 from './search/nav1';
 class Search extends Component {
   render() {
     return (
-      <div class="pos">
+      <div style={{width:"95em"}}>
   <Media query="(max-width: 1400px)" render={() => (
                <marquee> This app is best viewed in 1920 * 1280 resolution</marquee>)}>
 </Media>
