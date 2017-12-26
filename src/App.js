@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Media from 'react-media'
 import Nav from './Nav';
 import './App.css';
 import Trend from './trendscard';
@@ -15,9 +14,6 @@ class App extends Component {
   render() {
     return (
      <div style={{width:"95em"}}>
-         <Media query="(max-width: 1400px)" render={() => (
-               <marquee> This app is best viewed in 1920 * 1280 resolution</marquee>)}>
-</Media>
              <Grid container justify="center" spacing={24}
               style={{backgroundColor:"#e6ecf0"}} wrap="wrap">
              <Grid item xs={12}>
